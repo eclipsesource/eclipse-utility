@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:edit?after=additions">
+         <command
+               commandId="com.eclipsesource.ide.versionrange.command1"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="com.eclipsesource.ide.versionrange.UpdateVersionHandler"
+            id="com.eclipsesource.ide.versionrange.command1"
+            name="Update Versions">
+      </command>
+   </extension>
+
+</plugin>

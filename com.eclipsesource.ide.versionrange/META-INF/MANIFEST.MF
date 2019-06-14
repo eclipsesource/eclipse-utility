@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Versionrange
+Bundle-SymbolicName: com.eclipsesource.ide.versionrange;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EclipseSource Munich
+Require-Bundle: org.eclipse.core.resources;bundle-version="[3.10.1,4.0.0)",
+ org.eclipse.core.runtime;bundle-version="[3.11.1,4.0.0)",
+ org.eclipse.ui;bundle-version="[3.107.0,4.0.0)",
+ org.eclipse.pde.core;bundle-version="[3.10.101,4.0.0)"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.eclipsesource.ide.versionrange;x-internal:=true
+Automatic-Module-Name: com.eclipsesource.ide.versionrange
